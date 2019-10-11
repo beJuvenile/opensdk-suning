@@ -1,0 +1,26 @@
+{
+    "name": "opensdk/suning",
+    "description": "苏宁API SDK",
+    "keywords": ["苏宁","联盟SDK"],
+    "type": "libaray",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ken.Zhang",
+            "email": "kenphp@yeah.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "version": "v1.0.0",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenSDK\\Suning\\": "src/"
+        }
+    }
+}
